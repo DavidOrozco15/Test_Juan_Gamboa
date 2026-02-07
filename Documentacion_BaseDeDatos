@@ -1,0 +1,11 @@
+##La base de datos se diseño teniendo en cuentas los puntos de los requerimientos que se expusieron en la necesidad:
+
+- Entidad Autores: Se creo de tal manera que tuviera la informacion necesaria y requerida para identificar un autor.
+- Entidad Categorias: Se creo para poder facilitar el manejo de informacion teniendo en cuenta que pueden haber muchas categorias.
+- Entidad Libros: La entidad mas importante la constituye todos los datos que se requerian para esta tabla y tambien la informacion del autor y la categoria a la que pertenece.
+- Entidad Libro_pedido: Se creo de tal manera que gestione la cantidad especifica de un libro que se puede comprar.
+- Entidad Estado_Pedido: Se creo para gestionar de una manera mas facil el estado de un pedido(pendiente, procesado, completado).
+- Entidad Clientes: Esta cantidad contiene la informacion suficiente de un cliente y los datos necesarios y requeridos al momento de hacer un pedido.
+- Entidad Pedidos: Una de las mas importantes ya que aqui es donnde contiene la informacion mas importante de todo el proceso como el estado del pedido, los libros que se van a obtener y quien es el cliente.
+- Entidad Metodo_pago: se encarga de gestionar los diferentes metodos de pago que puede estar en una transaccion.
+- Entidad Transacciones: Se encarga de gestionar todo lo que es el proceso final y los datos de todo lo anterior.
