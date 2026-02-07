@@ -9,3 +9,9 @@
 - Entidad Pedidos: Una de las mas importantes ya que aqui es donnde contiene la informacion mas importante de todo el proceso como el estado del pedido, los libros que se van a obtener y quien es el cliente.
 - Entidad Metodo_pago: se encarga de gestionar los diferentes metodos de pago que puede estar en una transaccion.
 - Entidad Transacciones: Se encarga de gestionar todo lo que es el proceso final y los datos de todo lo anterior.
+
+#Justificacion
+
+### El modelo y diseño se diseño de tal manera que la informacion puediera llevarse a cabo de una manera mas limpia y no mas de la necesaria, es por eso que tambien los nombres de las llaves foraneas
+### y las llaves primarias juegan un papel muy importante en este diseño, es por eso que todas las llaves primarias llevan en su nombre un "_fk" para poder identificarlas y referenciarlas de manera mas
+### facil al momento de generar el script.
